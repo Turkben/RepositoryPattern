@@ -23,7 +23,10 @@ namespace RepositoryPattern.Controllers
         public IActionResult Index()
         {
             var course = _unitOfWork.Courses.Get(1);
-           
+
+            var authors = _unitOfWork.Authors.GetAll();
+
+
             return View();
         }
 
