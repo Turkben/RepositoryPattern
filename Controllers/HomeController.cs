@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using RepositoryPattern.Data;
-using RepositoryPattern.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
